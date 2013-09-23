@@ -8,7 +8,7 @@
 # Source function library.
 . /etc/rc.d/init.d/functions
 
-exec=/usr/bin/znc
+exec="<%= scope.lookupvar('znc::daemon_dir') %>/znc"
 prog=znc
 config=/etc/znc
 runas=<%= scope.lookupvar('znc::params::zc_user') %>

@@ -43,7 +43,8 @@ class znc(
   $countryName         = undef,
   $emailAddress        = undef,
   $commonName          = undef,
-  $port                = $znc::params::zc_port
+  $port                = $znc::params::zc_port,
+  $daemon_dir          = $znc::params::zc_daemon_dir
 ) inherits znc::params {
   include stdlib
 

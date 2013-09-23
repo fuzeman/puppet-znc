@@ -38,6 +38,7 @@ class znc::params {
   $zc_uid        = '400'
   $zc_gid        = '400'
   $zc_config_dir = '/etc/znc'
+  $zc_daemon_dir = '/usr/bin'
   $zc_auth_type  = 'plain'
   $zc_ssl        = 'false'
   $zc_port       = '8080'
